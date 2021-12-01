@@ -15,7 +15,7 @@ import os
 # # Setting up the device for GPU usage
 from torch import cuda
 device = 'cuda' if cuda.is_available() else 'cpu'
-device = 'cpu'
+# device = 'cpu'
 
 # Preparing for TPU usage
 # import torch_xla
@@ -151,7 +151,7 @@ def main_abstractive():
     df = df[['text','ctext']]
     df.ctext = 'summarize: ' + df.ctext
 #     print(df.head())
-    df = df.head(100)
+    # df = df.head(100)
 
 
     # Creation of Dataset and Dataloader
