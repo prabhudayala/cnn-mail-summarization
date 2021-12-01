@@ -14,3 +14,4 @@ print("Abstractive summary is:\n", run.predict_abstactive_summary('sample.txt'))
 run.train_extractive()
 print("Extractive summary is:\n", run.predict_extractive_summary('sample.txt'))
 ```
+3. or as an alternative you can open "how to use.ipynb" file as reference to execute the code.
