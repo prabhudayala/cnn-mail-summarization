@@ -6,7 +6,7 @@
 1. pip install -r requirements.txt
 
 2. open python in command line pointing to current directory and run below code. 
-```
+```python
 import run
 run.format_and_process_data()
 run.train_abstractive()
